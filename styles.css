@@ -1,0 +1,254 @@
+/* General styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header styles */
+header {
+    background: #0056d2;
+    color: #fff;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img {
+    width: 150px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.search-bar {
+    padding: 10px;
+    padding-right: 40px; /* Make space for the icon */
+    border-radius: 20px;
+    border: none;
+    width: 300px;
+    height: 40px;
+    outline: none;
+}
+
+.search-button {
+    position: absolute;
+    right: 5px;
+    background: transparent;
+    border: none;
+    color: #0056d2;
+    cursor: pointer;
+    outline: none;
+}
+
+.cart-button, .account-button {
+    background: #fff;
+    color: #0056d2;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+/* Hero section styles */
+.hero {
+    background: #f9f9f9;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.hero .explore-button {
+    background: #0056d2;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+/* Features section styles */
+.features {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.features h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.card {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 30%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.card h3 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.card p {
+    font-size: 1rem;
+    color: #777;
+    margin-top: 10px;
+}
+
+/* Footer styles */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 50px;
+}
+
+/* Cart, Payment, and My Courses styles */
+.cart, .payment, .my-courses, .certificates, .auth {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.cart h2, .payment h2, .my-courses h2, .certificates h2, .auth h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.cart-item, .my-course-item {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#checkout-button, #payment-form button {
+    background: #0056d2;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+#payment-form {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#payment-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#payment-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+}
+
+.certificate-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.certificate-container img {
+    width: 300px;
+    height: auto;
+    margin: 10px;
+}
+
+/* Auth styles */
+.auth form {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.auth form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.auth form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+}
+
+.auth form button {
+    width: 100%;
+    background: #0056d2;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.auth p {
+    margin-top: 10px;
+    text-align: center;
+}
