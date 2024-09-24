@@ -78,7 +78,6 @@ document.addEventListener('DOMContentLoaded', function() {
         updateMyCourses();
     }
 
-    // Auth handling
     const users = JSON.parse(localStorage.getItem('users')) || [];
     let currentUser = localStorage.getItem('currentUser');
 
@@ -119,7 +118,6 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
-    // Show account button for logged-in users
     const accountButton = document.querySelector('.account-button');
     if (currentUser && accountButton) {
         accountButton.textContent = currentUser;
